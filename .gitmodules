@@ -1,128 +1,128 @@
-[submodule "benchmarks/101-sys-bench-amd-rocm-stack-validation-ubu2404"]
-	path = benchmarks/101-sys-bench-amd-rocm-stack-validation-ubu2404
+[submodule "101-sys-bench-amd-rocm-stack-validation-ubu2404"]
+	path = 101-sys-bench-amd-rocm-stack-validation-ubu2404
 	url = ../101-sys-bench-amd-rocm-stack-validation-ubu2404.git
 	branch = main
-[submodule "benchmarks/102-sys-bench-amd-rocm-health-validation-ubu2404"]
-	path = benchmarks/102-sys-bench-amd-rocm-health-validation-ubu2404
+[submodule "102-sys-bench-amd-rocm-health-validation-ubu2404"]
+	path = 102-sys-bench-amd-rocm-health-validation-ubu2404
 	url = ../102-sys-bench-amd-rocm-health-validation-ubu2404.git
 	branch = main
-[submodule "benchmarks/103-sys-bench-amd-system-stress-stability-ubu2404"]
-	path = benchmarks/103-sys-bench-amd-system-stress-stability-ubu2404
+[submodule "103-sys-bench-amd-system-stress-stability-ubu2404"]
+	path = 103-sys-bench-amd-system-stress-stability-ubu2404
 	url = ../103-sys-bench-amd-system-stress-stability-ubu2404.git
 	branch = main
-[submodule "benchmarks/104-gpu-bench-amd-sdc-ecc-integrity-ubu2404"]
-	path = benchmarks/104-gpu-bench-amd-sdc-ecc-integrity-ubu2404
+[submodule "104-gpu-bench-amd-sdc-ecc-integrity-ubu2404"]
+	path = 104-gpu-bench-amd-sdc-ecc-integrity-ubu2404
 	url = ../104-gpu-bench-amd-sdc-ecc-integrity-ubu2404.git
 	branch = main
-[submodule "benchmarks/105-gpu-bench-amd-pytorch-tensor-correctness-ubu2404"]
-	path = benchmarks/105-gpu-bench-amd-pytorch-tensor-correctness-ubu2404
+[submodule "105-gpu-bench-amd-pytorch-tensor-correctness-ubu2404"]
+	path = 105-gpu-bench-amd-pytorch-tensor-correctness-ubu2404
 	url = ../105-gpu-bench-amd-pytorch-tensor-correctness-ubu2404.git
 	branch = main
-[submodule "benchmarks/106-sys-bench-amd-fio-nvme-sweep-ubu2404"]
-	path = benchmarks/106-sys-bench-amd-fio-nvme-sweep-ubu2404
+[submodule "106-sys-bench-amd-fio-nvme-sweep-ubu2404"]
+	path = 106-sys-bench-amd-fio-nvme-sweep-ubu2404
 	url = ../106-sys-bench-amd-fio-nvme-sweep-ubu2404.git
 	branch = main
-[submodule "benchmarks/107-sys-bench-amd-stream-ddr5-bandwidth-ubu2404"]
-	path = benchmarks/107-sys-bench-amd-stream-ddr5-bandwidth-ubu2404
+[submodule "107-sys-bench-amd-stream-ddr5-bandwidth-ubu2404"]
+	path = 107-sys-bench-amd-stream-ddr5-bandwidth-ubu2404
 	url = ../107-sys-bench-amd-stream-ddr5-bandwidth-ubu2404.git
 	branch = main
-[submodule "benchmarks/108-sys-bench-amd-iperf3-network-performance-ubu2404"]
-	path = benchmarks/108-sys-bench-amd-iperf3-network-performance-ubu2404
+[submodule "108-sys-bench-amd-iperf3-network-performance-ubu2404"]
+	path = 108-sys-bench-amd-iperf3-network-performance-ubu2404
 	url = ../108-sys-bench-amd-iperf3-network-performance-ubu2404.git
 	branch = main
-[submodule "benchmarks/109-sys-bench-amd-multichase-numa-latency-ubu2404"]
-	path = benchmarks/109-sys-bench-amd-multichase-numa-latency-ubu2404
+[submodule "109-sys-bench-amd-multichase-numa-latency-ubu2404"]
+	path = 109-sys-bench-amd-multichase-numa-latency-ubu2404
 	url = ../109-sys-bench-amd-multichase-numa-latency-ubu2404.git
 	branch = main
-[submodule "benchmarks/110-sys-bench-amd-numa-cache-performance-ubu2404"]
-	path = benchmarks/110-sys-bench-amd-numa-cache-performance-ubu2404
+[submodule "110-sys-bench-amd-numa-cache-performance-ubu2404"]
+	path = 110-sys-bench-amd-numa-cache-performance-ubu2404
 	url = ../110-sys-bench-amd-numa-cache-performance-ubu2404.git
 	branch = main
-[submodule "benchmarks/111-sys-bench-amd-linux-perf-pmu-ubu2404"]
-	path = benchmarks/111-sys-bench-amd-linux-perf-pmu-ubu2404
+[submodule "111-sys-bench-amd-linux-perf-pmu-ubu2404"]
+	path = 111-sys-bench-amd-linux-perf-pmu-ubu2404
 	url = ../111-sys-bench-amd-linux-perf-pmu-ubu2404.git
 	branch = main
-[submodule "benchmarks/112-sys-bench-amd-lmbench-microbench-suite-ubu2404"]
-	path = benchmarks/112-sys-bench-amd-lmbench-microbench-suite-ubu2404
+[submodule "112-sys-bench-amd-lmbench-microbench-suite-ubu2404"]
+	path = 112-sys-bench-amd-lmbench-microbench-suite-ubu2404
 	url = ../112-sys-bench-amd-lmbench-microbench-suite-ubu2404.git
 	branch = main
-[submodule "benchmarks/113-sys-bench-amd-gups-random-memory-ubu2404"]
-	path = benchmarks/113-sys-bench-amd-gups-random-memory-ubu2404
+[submodule "113-sys-bench-amd-gups-random-memory-ubu2404"]
+	path = 113-sys-bench-amd-gups-random-memory-ubu2404
 	url = ../113-sys-bench-amd-gups-random-memory-ubu2404.git
 	branch = main
-[submodule "benchmarks/114-gpu-bench-amd-hipmemcpy-transfer-bandwidth-ubu2404"]
-	path = benchmarks/114-gpu-bench-amd-hipmemcpy-transfer-bandwidth-ubu2404
+[submodule "114-gpu-bench-amd-hipmemcpy-transfer-bandwidth-ubu2404"]
+	path = 114-gpu-bench-amd-hipmemcpy-transfer-bandwidth-ubu2404
 	url = ../114-gpu-bench-amd-hipmemcpy-transfer-bandwidth-ubu2404.git
 	branch = main
-[submodule "benchmarks/115-gpu-bench-amd-babelstream-hbm-bandwidth-ubu2404"]
-	path = benchmarks/115-gpu-bench-amd-babelstream-hbm-bandwidth-ubu2404
+[submodule "115-gpu-bench-amd-babelstream-hbm-bandwidth-ubu2404"]
+	path = 115-gpu-bench-amd-babelstream-hbm-bandwidth-ubu2404
 	url = ../115-gpu-bench-amd-babelstream-hbm-bandwidth-ubu2404.git
 	branch = main
-[submodule "benchmarks/116-gpu-bench-amd-rccl-bandwidth-test-ubu2404"]
-	path = benchmarks/116-gpu-bench-amd-rccl-bandwidth-test-ubu2404
+[submodule "116-gpu-bench-amd-rccl-bandwidth-test-ubu2404"]
+	path = 116-gpu-bench-amd-rccl-bandwidth-test-ubu2404
 	url = ../116-gpu-bench-amd-rccl-bandwidth-test-ubu2404.git
 	branch = main
-[submodule "benchmarks/117-gpu-bench-amd-gemm-rocblas-micro-ubu2404"]
-	path = benchmarks/117-gpu-bench-amd-gemm-rocblas-micro-ubu2404
+[submodule "117-gpu-bench-amd-gemm-rocblas-micro-ubu2404"]
+	path = 117-gpu-bench-amd-gemm-rocblas-micro-ubu2404
 	url = ../117-gpu-bench-amd-gemm-rocblas-micro-ubu2404.git
 	branch = main
-[submodule "benchmarks/118-gpu-bench-amd-miopen-convolution-micro-ubu2404"]
-	path = benchmarks/118-gpu-bench-amd-miopen-convolution-micro-ubu2404
+[submodule "118-gpu-bench-amd-miopen-convolution-micro-ubu2404"]
+	path = 118-gpu-bench-amd-miopen-convolution-micro-ubu2404
 	url = ../118-gpu-bench-amd-miopen-convolution-micro-ubu2404.git
 	branch = main
-[submodule "benchmarks/119-gpu-bench-amd-torch-micro-suite-ubu2404"]
-	path = benchmarks/119-gpu-bench-amd-torch-micro-suite-ubu2404
+[submodule "119-gpu-bench-amd-torch-micro-suite-ubu2404"]
+	path = 119-gpu-bench-amd-torch-micro-suite-ubu2404
 	url = ../119-gpu-bench-amd-torch-micro-suite-ubu2404.git
 	branch = main
-[submodule "benchmarks/120-gpu-bench-amd-linpack-rochpl-fp64-ubu2404"]
-	path = benchmarks/120-gpu-bench-amd-linpack-rochpl-fp64-ubu2404
+[submodule "120-gpu-bench-amd-linpack-rochpl-fp64-ubu2404"]
+	path = 120-gpu-bench-amd-linpack-rochpl-fp64-ubu2404
 	url = ../120-gpu-bench-amd-linpack-rochpl-fp64-ubu2404.git
 	branch = main
-[submodule "benchmarks/121-gpu-bench-amd-resnet50-pytorch-training-ubu2404"]
-	path = benchmarks/121-gpu-bench-amd-resnet50-pytorch-training-ubu2404
+[submodule "121-gpu-bench-amd-resnet50-pytorch-training-ubu2404"]
+	path = 121-gpu-bench-amd-resnet50-pytorch-training-ubu2404
 	url = ../121-gpu-bench-amd-resnet50-pytorch-training-ubu2404.git
 	branch = main
-[submodule "benchmarks/122-gpu-bench-amd-resnet50-pytorch-inference-ubu2404"]
-	path = benchmarks/122-gpu-bench-amd-resnet50-pytorch-inference-ubu2404
+[submodule "122-gpu-bench-amd-resnet50-pytorch-inference-ubu2404"]
+	path = 122-gpu-bench-amd-resnet50-pytorch-inference-ubu2404
 	url = ../122-gpu-bench-amd-resnet50-pytorch-inference-ubu2404.git
 	branch = main
-[submodule "benchmarks/123-gpu-bench-amd-bert-base-inference-ubu2404"]
-	path = benchmarks/123-gpu-bench-amd-bert-base-inference-ubu2404
+[submodule "123-gpu-bench-amd-bert-base-inference-ubu2404"]
+	path = 123-gpu-bench-amd-bert-base-inference-ubu2404
 	url = ../123-gpu-bench-amd-bert-base-inference-ubu2404.git
 	branch = main
-[submodule "benchmarks/124-gpu-bench-amd-sdxl-diffusers-latency-ubu2404"]
-	path = benchmarks/124-gpu-bench-amd-sdxl-diffusers-latency-ubu2404
+[submodule "124-gpu-bench-amd-sdxl-diffusers-latency-ubu2404"]
+	path = 124-gpu-bench-amd-sdxl-diffusers-latency-ubu2404
 	url = ../124-gpu-bench-amd-sdxl-diffusers-latency-ubu2404.git
 	branch = main
-[submodule "benchmarks/125-gpu-bench-amd-distilbert-hf-classification-ubu2404"]
-	path = benchmarks/125-gpu-bench-amd-distilbert-hf-classification-ubu2404
+[submodule "125-gpu-bench-amd-distilbert-hf-classification-ubu2404"]
+	path = 125-gpu-bench-amd-distilbert-hf-classification-ubu2404
 	url = ../125-gpu-bench-amd-distilbert-hf-classification-ubu2404.git
 	branch = main
-[submodule "benchmarks/126-gpu-bench-amd-jax-xla-forwardpass-ubu2404"]
-	path = benchmarks/126-gpu-bench-amd-jax-xla-forwardpass-ubu2404
+[submodule "126-gpu-bench-amd-jax-xla-forwardpass-ubu2404"]
+	path = 126-gpu-bench-amd-jax-xla-forwardpass-ubu2404
 	url = ../126-gpu-bench-amd-jax-xla-forwardpass-ubu2404.git
 	branch = main
-[submodule "benchmarks/127-gpu-bench-amd-vllm-kvcache-stress-ubu2404"]
-	path = benchmarks/127-gpu-bench-amd-vllm-kvcache-stress-ubu2404
+[submodule "127-gpu-bench-amd-vllm-kvcache-stress-ubu2404"]
+	path = 127-gpu-bench-amd-vllm-kvcache-stress-ubu2404
 	url = ../127-gpu-bench-amd-vllm-kvcache-stress-ubu2404.git
 	branch = main
-[submodule "benchmarks/128-gpu-bench-amd-vllm-throughput-latency-ubu2404"]
-	path = benchmarks/128-gpu-bench-amd-vllm-throughput-latency-ubu2404
+[submodule "128-gpu-bench-amd-vllm-throughput-latency-ubu2404"]
+	path = 128-gpu-bench-amd-vllm-throughput-latency-ubu2404
 	url = ../128-gpu-bench-amd-vllm-throughput-latency-ubu2404.git
 	branch = main
-[submodule "benchmarks/129-gpu-bench-amd-vllm-mistral-rocm-ubu2404"]
-	path = benchmarks/129-gpu-bench-amd-vllm-mistral-rocm-ubu2404
+[submodule "129-gpu-bench-amd-vllm-mistral-rocm-ubu2404"]
+	path = 129-gpu-bench-amd-vllm-mistral-rocm-ubu2404
 	url = ../129-gpu-bench-amd-vllm-mistral-rocm-ubu2404.git
 	branch = main
-[submodule "benchmarks/130-gpu-bench-amd-sglang-prompt-response-ubu2404"]
-	path = benchmarks/130-gpu-bench-amd-sglang-prompt-response-ubu2404
+[submodule "130-gpu-bench-amd-sglang-prompt-response-ubu2404"]
+	path = 130-gpu-bench-amd-sglang-prompt-response-ubu2404
 	url = ../130-gpu-bench-amd-sglang-prompt-response-ubu2404.git
 	branch = main
-[submodule "benchmarks/131-gpu-bench-amd-sglang-serving-latency-ubu2404"]
-	path = benchmarks/131-gpu-bench-amd-sglang-serving-latency-ubu2404
+[submodule "131-gpu-bench-amd-sglang-serving-latency-ubu2404"]
+	path = 131-gpu-bench-amd-sglang-serving-latency-ubu2404
 	url = ../131-gpu-bench-amd-sglang-serving-latency-ubu2404.git
 	branch = main
-[submodule "benchmarks/132-gpu-bench-amd-rag-faiss-end2end-ubu2404"]
-	path = benchmarks/132-gpu-bench-amd-rag-faiss-end2end-ubu2404
+[submodule "132-gpu-bench-amd-rag-faiss-end2end-ubu2404"]
+	path = 132-gpu-bench-amd-rag-faiss-end2end-ubu2404
 	url = ../132-gpu-bench-amd-rag-faiss-end2end-ubu2404.git
 	branch = main
