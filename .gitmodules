@@ -1,0 +1,128 @@
+[submodule "benchmarks/amd-u24-101"]
+	path = benchmarks/amd-u24-101
+	url = ../101-sys-bench-amd-rocm-stack-validation-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-102"]
+	path = benchmarks/amd-u24-102
+	url = ../102-sys-bench-amd-rocm-health-validation-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-103"]
+	path = benchmarks/amd-u24-103
+	url = ../103-sys-bench-amd-system-stress-stability-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-104"]
+	path = benchmarks/amd-u24-104
+	url = ../104-gpu-bench-amd-sdc-ecc-integrity-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-105"]
+	path = benchmarks/amd-u24-105
+	url = ../105-gpu-bench-amd-pytorch-tensor-correctness-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-106"]
+	path = benchmarks/amd-u24-106
+	url = ../106-sys-bench-amd-fio-nvme-sweep-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-107"]
+	path = benchmarks/amd-u24-107
+	url = ../107-sys-bench-amd-stream-ddr5-bandwidth-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-108"]
+	path = benchmarks/amd-u24-108
+	url = ../108-sys-bench-amd-iperf3-network-performance-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-109"]
+	path = benchmarks/amd-u24-109
+	url = ../109-sys-bench-amd-multichase-numa-latency-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-110"]
+	path = benchmarks/amd-u24-110
+	url = ../110-sys-bench-amd-numa-cache-performance-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-111"]
+	path = benchmarks/amd-u24-111
+	url = ../111-sys-bench-amd-linux-perf-pmu-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-112"]
+	path = benchmarks/amd-u24-112
+	url = ../112-sys-bench-amd-lmbench-microbench-suite-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-113"]
+	path = benchmarks/amd-u24-113
+	url = ../113-sys-bench-amd-gups-random-memory-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-114"]
+	path = benchmarks/amd-u24-114
+	url = ../114-gpu-bench-amd-hipmemcpy-transfer-bandwidth-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-115"]
+	path = benchmarks/amd-u24-115
+	url = ../115-gpu-bench-amd-babelstream-hbm-bandwidth-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-116"]
+	path = benchmarks/amd-u24-116
+	url = ../116-gpu-bench-amd-rccl-bandwidth-test-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-117"]
+	path = benchmarks/amd-u24-117
+	url = ../117-gpu-bench-amd-gemm-rocblas-micro-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-118"]
+	path = benchmarks/amd-u24-118
+	url = ../118-gpu-bench-amd-miopen-convolution-micro-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-119"]
+	path = benchmarks/amd-u24-119
+	url = ../119-gpu-bench-amd-torch-micro-suite-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-120"]
+	path = benchmarks/amd-u24-120
+	url = ../120-gpu-bench-amd-linpack-rochpl-fp64-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-121"]
+	path = benchmarks/amd-u24-121
+	url = ../121-gpu-bench-amd-resnet50-pytorch-training-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-122"]
+	path = benchmarks/amd-u24-122
+	url = ../122-gpu-bench-amd-resnet50-pytorch-inference-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-123"]
+	path = benchmarks/amd-u24-123
+	url = ../123-gpu-bench-amd-bert-base-inference-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-124"]
+	path = benchmarks/amd-u24-124
+	url = ../124-gpu-bench-amd-sdxl-diffusers-latency-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-125"]
+	path = benchmarks/amd-u24-125
+	url = ../125-gpu-bench-amd-distilbert-hf-classification-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-126"]
+	path = benchmarks/amd-u24-126
+	url = ../126-gpu-bench-amd-jax-xla-forwardpass-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-127"]
+	path = benchmarks/amd-u24-127
+	url = ../127-gpu-bench-amd-vllm-kvcache-stress-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-128"]
+	path = benchmarks/amd-u24-128
+	url = ../128-gpu-bench-amd-vllm-throughput-latency-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-129"]
+	path = benchmarks/amd-u24-129
+	url = ../129-gpu-bench-amd-vllm-mistral-rocm-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-130"]
+	path = benchmarks/amd-u24-130
+	url = ../130-gpu-bench-amd-sglang-prompt-response-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-131"]
+	path = benchmarks/amd-u24-131
+	url = ../131-gpu-bench-amd-sglang-serving-latency-ubu2404.git
+	branch = main
+[submodule "benchmarks/amd-u24-132"]
+	path = benchmarks/amd-u24-132
+	url = ../132-gpu-bench-amd-rag-faiss-end2end-ubu2404.git
+	branch = main
