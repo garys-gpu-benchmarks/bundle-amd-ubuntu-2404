@@ -1,7 +1,7 @@
 # AMD ROCm - Ubuntu 24.04 benchmark bundle
 
 32 system and GPU benchmarks for AMD GPU machines running Ubuntu 24.04,
-each pinned to its tested v1.0.15 release.
+each pinned to its tested v1.0.16 release.
 
 Use this bundle only on that platform. The others have their own bundle:
 [AMD 24.04](https://github.com/garys-gpu-benchmarks/bundle-amd-ubuntu-2404) ·
@@ -54,8 +54,12 @@ work.
 ### 2. The GPU software and two quick GPU checks
 
 ```bash
-./run_benchmark_suite.sh -w 101,102,114 -p smoke
+./run_benchmark_suite.sh -w 101,102,114 -p smoke   # first run installs ROCm: quiet for 5-20 minutes
 ```
+
+The first GPU run prints nothing while it installs. To watch it, add
+`--show-output`, or in a second window run
+`tail -f /opt/benchmarks/101-*/results/install_status.txt`.
 
 | Benchmark | What it checks |
 |---|---|
