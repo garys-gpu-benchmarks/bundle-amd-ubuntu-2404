@@ -1,7 +1,7 @@
 # AMD ROCm - Ubuntu 24.04 benchmark bundle
 
 32 system and GPU benchmarks for AMD GPU machines running Ubuntu 24.04,
-each pinned to its tested v1.0.16 release.
+each pinned to its tested v1.0.17 release.
 
 Use this bundle only on that platform. The others have their own bundle:
 [AMD 24.04](https://github.com/garys-gpu-benchmarks/bundle-amd-ubuntu-2404) ·
@@ -18,7 +18,7 @@ Use this bundle only on that platform. The others have their own bundle:
   free before it does. That check is per benchmark, not for the whole suite,
   and the AI benchmarks also download models.
 - A machine where installing ROCm and one restart are acceptable: the first
-  run installs them.
+  run installs ROCm, and may restart the machine once.
 - For the AI model benchmarks (123 to 132): if a model's license on Hugging
   Face requires it, accept the license there and set a token first:
   `export HF_TOKEN=hf_...`
@@ -37,6 +37,11 @@ Do not use GitHub's **Download ZIP**: it leaves the benchmark folders empty.
 
 ## Getting started
 
+Each command below ends with a summary like the samples shown. Your times,
+host name and log file name will differ; what matters is `0 failed`. If a run
+fails, the summary names it under `Failed runs:`; open the log file named on
+the summary's last line.
+
 ### 1. A CPU benchmark (about a minute, no GPU software)
 
 ```bash
@@ -49,16 +54,31 @@ Python environment, not ROCm, and does not restart the machine. It ends
 with Copy, Scale, Add and Triad rates in GB/s. Smoke uses 4 threads; the
 `baseline` profile is the figure to quote for this machine. If this run
 passes, the bundle, the suite runner, the results and the runtime ledger all
-work.
+work. It ends like this:
 
-### 2. The GPU software and two quick GPU checks
-
-```bash
-./run_benchmark_suite.sh -w 101,102,114 -p smoke   # first run installs ROCm: quiet for 5-20 minutes
+```text
+======================================================================
+SUMMARY: 1 of 1 runs finished: 1 passed, 0 failed
+Started:       Mon Oct 19 22:03:51 UTC 2026
+Completed:     Mon Oct 19 22:04:35 UTC 2026
+Total runtime: 0 hours 0 minutes 44 seconds
+Log file:      /opt/benchmarks/benchmark_suite_log/run_benchmark_suite_<host>_20261019_220351.log
+======================================================================
 ```
 
-The first GPU run prints nothing while it installs. To watch it, add
-`--show-output`, or in a second window run
+To see that run in the runtime ledger: `./show_metrics.sh 107`
+
+### 2. The GPU software and two quick GPU checks (5 to 20 minutes the first time)
+
+The first time, 101 installs ROCm, which takes 5 to 20 minutes. Run it
+either way:
+
+```bash
+./run_benchmark_suite.sh -w 101,102,114 -p smoke --show-output   # shows progress while ROCm installs
+./run_benchmark_suite.sh -w 101,102,114 -p smoke                 # quiet: prints nothing for 5 to 20 minutes
+```
+
+In quiet mode, watch progress from a second window with
 `tail -f /opt/benchmarks/101-*/results/install_status.txt`.
 
 | Benchmark | What it checks |
@@ -67,26 +87,45 @@ The first GPU run prints nothing while it installs. To watch it, add
 | 102 | GPU health: the GPUs are visible, with temperature and link status |
 | 114 | copy bandwidth between the host and the GPU, measured at 256 MiB |
 
-**Smoke is a wiring check.** It shows that each benchmark installs, runs and
-records its results. Most smoke runs use small sizes, so their numbers are not
-for reports: for example, the 115 (GPU memory bandwidth) smoke arrays fit in
-GPU cache and do not measure HBM. Quote `baseline` or `extended` results.
+**If the machine restarts.** Installing ROCm may restart the machine once,
+which closes your connection. This is planned, not a failure:
 
-The first GPU run takes much longer than later ones: 101 installs ROCm,
-and each benchmark installs its own software the first time. The install may
-restart the machine once. If it does:
-
-1. Log in again as root. Setup continues on its own after the restart.
+1. Log in again as root after a few minutes. Setup continues on its own after
+   the restart.
 2. To watch it: `tail -f /opt/benchmarks/101-*/results/install_status.txt`
    (Ctrl+C stops watching, not setup).
 3. Run the same command again. If it says setup is still running, wait a few
    minutes and run it again. Benchmarks already installed are not installed
    again.
 
-Each run prints a short block, and the suite ends with a pass/fail summary.
-The full output is in `/opt/benchmarks/benchmark_suite_log/`.
+When all three pass, it ends like this:
 
-To run a single benchmark with its output on screen:
+```text
+======================================================================
+SUMMARY: 3 of 3 runs finished: 3 passed, 0 failed
+Started:       Mon Oct 19 22:07:13 UTC 2026
+Completed:     Mon Oct 19 22:13:14 UTC 2026
+Total runtime: 0 hours 6 minutes 1 seconds
+Log file:      /opt/benchmarks/benchmark_suite_log/run_benchmark_suite_<host>_20261019_220713.log
+======================================================================
+```
+
+### 3. Smoke is a wiring check, not a measurement
+
+Smoke shows that each benchmark installs, runs and records its results. Most
+smoke runs use small sizes, so their numbers are not for reports: for example,
+the 115 (GPU memory bandwidth) smoke arrays fit in GPU cache and do not
+measure HBM. Quote `baseline` or `extended` results. Smoke is short for most
+benchmarks, but the AI benchmarks (123 to 132) download models the first
+time, so their first smoke run takes longer.
+
+### 4. Run one benchmark
+
+Each benchmark installs its own software the first time it runs, so a first
+run takes longer than later ones. Each run prints a short block, and the suite
+ends with the summary shown above. The full output is in
+`/opt/benchmarks/benchmark_suite_log/`. To run a single benchmark with its
+output on screen:
 
 ```bash
 ./run_benchmark_suite.sh -w 105 -p smoke --show-output      # benchmark 105, smoke profile
